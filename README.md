@@ -1,18 +1,30 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# ZeroCross
 
-## Getting Started
+I am building an app called ZeroCross, a dedicated allergen-free food discovery platform built exclusively for people with severe food allergies and dietary restrictions. It is NOT a general food app with an allergen filter bolted on. Every feature is built around the assumption that the user cannot afford to guess — because for many of them, a wrong answer sends their child to the emergency room.
 
-First, run the development server:
+The four pain points we eliminate:
 
-```bash
-yarn run dev
+The Economic "Gluten-Free Tax" — allergic households spend 18% more on groceries
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+The Trust Gap — a single crumb of cross-contamination causes debilitating illness
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+The Specialty Gap — limited versions of allergen-free cultural foods exist
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Social Alienation — spontaneous dining causes intense anxiety; users often just don't eat rather than risk it
 
-## Supabase Setup
-# Project Name: zerocross-db
-# Project Password: nybpys-kumnym-2gizQa
+Target users:
+
+Primary: Parents managing children with multiple food allergies (ages 28–45)
+
+Secondary: College students with dietary restrictions navigating dining halls and restaurants for the first time independently
+
+## Development
+
+Prefer working locally? You need Node.js and npm — [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating).
+
+```sh
+git clone <this-repository-url>
+cd <repository-name>
+npm i
+npm run dev
+```
