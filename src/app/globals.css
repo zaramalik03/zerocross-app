@@ -1,0 +1,107 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities;
+ */
+@import "tailwindcss";
+
+:root {
+  --icyblue: #e2efef;
+  --teal: #226580;
+  --saffron: #E8A020;
+  --saffron-light: #F5C14A;
+  --cream: #E2EFEF;
+  --cream-dark: #F0EBE0;
+  --slate: #4A5568;
+  --slate-light: #718096;
+  --navy: #151B3A;
+  --white: #FFFFFF;
+}
+
+@theme inline {
+  --color-icyblue: var(--icyblue);
+  --color-teal: var(--teal);
+  --color-saffron: var(--saffron);
+  --color-cream: var(--cream);
+  --color-cream-dark: var(--cream-dark);
+  --color-slate: var(--slate);
+  --color-navy: var(--navy);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--icyblue);
+  color: var(--navy);
+  font-family: 'Inter', system-ui, sans-serif;
+}
+
+.page-shell {
+  background: #e2efef;
+  color: #151b3a;
+  font-family: 'Inter', system-ui, sans-serif;
+}
+
+.surface-card {
+  background: #ffffff;
+  border: 1px solid #d1d5db;
+  border-radius: 1.5rem;
+  box-shadow: 0 10px 30px rgba(21, 27, 58, 0.06);
+}
+
+.page-header {
+  background: #e2efef;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.section-label {
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: #226580;
+}
+
+.section-title {
+  font-family: 'Fraunces', Georgia, serif;
+  font-size: clamp(2rem, 4vw, 3rem);
+  line-height: 1.1;
+  color: #151b3a;
+}
+
+.section-body {
+  color: #4a5568;
+  font-size: 0.95rem;
+  line-height: 1.7;
+}
+
+.primary-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 999px;
+  padding: 0.9rem 1.4rem;
+  font-size: 0.9rem;
+  font-weight: 700;
+  background: #151b3a;
+  color: #faf7f0;
+  border: 1px solid #151b3a;
+  transition: all 0.2s ease;
+}
+
+.secondary-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 999px;
+  padding: 0.9rem 1.4rem;
+  font-size: 0.9rem;
+  font-weight: 700;
+  background: #ffffff;
+  color: #151b3a;
+  border: 1px solid #a7c4b5;
+  transition: all 0.2s ease;
+}
+
+/* @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap'); */

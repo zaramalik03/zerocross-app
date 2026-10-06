@@ -1,0 +1,18 @@
+GRANT SELECT ON public.places TO anon, authenticated;
+GRANT SELECT ON public.places_allergens TO anon, authenticated;
+GRANT SELECT ON public.places_diets TO anon, authenticated;
+GRANT SELECT ON public.allergens TO anon, authenticated;
+GRANT SELECT ON public.diets TO anon, authenticated;
+GRANT SELECT ON public.ingredients TO anon, authenticated;
+GRANT SELECT ON public.ingredient_allergens TO anon, authenticated;
+GRANT SELECT ON public.ingredient_diets TO anon, authenticated;
+GRANT SELECT ON public.products TO anon, authenticated;
+GRANT SELECT ON public.product_allergens TO anon, authenticated;
+GRANT SELECT ON public.product_diets TO anon, authenticated;
+GRANT SELECT ON public.recipes TO anon, authenticated;
+GRANT SELECT, INSERT, UPDATE, DELETE ON public.users TO authenticated;
+GRANT SELECT, INSERT, UPDATE, DELETE ON public.user_allergens TO authenticated;
+GRANT SELECT, INSERT, UPDATE, DELETE ON public.dietary_preferences TO authenticated;
+GRANT USAGE, SELECT ON ALL SEQUENCES IN SCHEMA public TO authenticated;
+GRANT ALL ON ALL TABLES IN SCHEMA public TO service_role;
+GRANT ALL ON ALL SEQUENCES IN SCHEMA public TO service_role;
